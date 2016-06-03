@@ -1,0 +1,19 @@
+{
+  "name": "@kazunori-kimura/koa-log4js",
+  "version": "1.0.0",
+  "description": "logger middleware for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["koa", "log"],
+  "author": "kazunori.kimura.js@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "log4js": "^0.6.36"
+  },
+  "devDependencies": {
+    "koa": "^1.2.0"
+  }
+}
