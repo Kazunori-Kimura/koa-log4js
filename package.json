@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node test/test.js"
   },
-  "keywords": ["koa", "log"],
+  "keywords": [
+    "koa",
+    "log"
+  ],
   "author": "kazunori.kimura.js@gmail.com",
   "license": "MIT",
   "dependencies": {
@@ -15,5 +18,16 @@
   },
   "devDependencies": {
     "koa": "^1.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazunori-Kimura/koa-log4js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kazunori-Kimura/koa-log4js/issues"
+  },
+  "homepage": "https://github.com/Kazunori-Kimura/koa-log4js#readme"
 }
