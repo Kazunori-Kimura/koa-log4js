@@ -1,13 +1,12 @@
-// test.js
+// test-config.js
 const koa = require("koa");
 const app = koa();
 const Log = require("../index.js");
 
 const PORT = 3000;
-const logfile = `${__dirname}/app.log`;
 
 // set log4js configuration
-const log = Log({ filename: logfile }, "INFO");
+const log = Log(`${__dirname}/config.json`);
 // get logger instance
 const logger = log.logger;
 
@@ -19,6 +18,7 @@ app.use(function* (){
 });
 
 app.listen(PORT);
+logger.info("--- test-config.js ---");
 logger.info(`listen at http://localhost:${PORT}`);
 
 const msg = "test log.";

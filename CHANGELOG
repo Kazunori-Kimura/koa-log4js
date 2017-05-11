@@ -1,0 +1,27 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased][Unreleased]
+
+## [1.1.0] - 2017-05-11
+### Added
+- 設定ファイルの読み込み機能
+- 出力するログレベルの指定機能
+- ChangeLogを追加
+
+### Changed
+- httpリクエスト受信時のログレベルを `trace` から `info` に変更
+- テストコード変更
+
+## [1.0.3] - 2016-07-26
+### Fixed
+- 依存モジュールの最新化
+
+## [1.0.0] - 2016-06-03
+### Added
+- 初版リリース
+

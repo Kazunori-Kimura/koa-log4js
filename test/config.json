@@ -1,0 +1,12 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "category": "test",
+      "filename": "test/system.log",
+      "pattern": "-yyyy-MM-dd"
+    },
+    { "type": "console" }
+  ],
+  "levels": { "test": "INFO" }
+}
