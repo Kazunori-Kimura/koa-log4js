@@ -1,6 +1,6 @@
 {
   "name": "@kazunori-kimura/koa-log4js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "logger middleware for koa",
   "main": "index.js",
   "scripts": {

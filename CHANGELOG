@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][Unreleased]
 
+## [1.1.1] - 2017-05-11
+### Fixed
+- 不要な console.log を削除
+
 ## [1.1.0] - 2017-05-11
 ### Added
 - 設定ファイルの読み込み機能

@@ -19,14 +19,12 @@ module.exports = function (opts, level = "ALL") {
 
   if (typeof opts === "string") {
     if (fs.pathExistsSync(opts)) {
-      console.log("hoge");
       // 設定ファイルの読み込み
       log4js.configure(opts);
       isConfigured = true;
 
       // log4jsインスタンス生成のためカテゴリーを取得
       const data = fs.readJsonSync(opts);
-      console.log(data);
 
       if (Array.isArray(data.appenders) && data.appenders.length > 0) {
         // 先頭のappenderのcategoryを取得
@@ -73,7 +71,7 @@ module.exports = function (opts, level = "ALL") {
 
   // log4jsインスタンスの生成
   const logger = log4js.getLogger(category);
-  console.log(`getLogger: ${category}`);
+
   if (hasWarn) {
     const msg = `Unable to load configuration file. (file: "${configFile}")`;
     logger.warn(msg);
@@ -89,6 +87,3 @@ module.exports = function (opts, level = "ALL") {
     }
   };
 };
-
-
-
